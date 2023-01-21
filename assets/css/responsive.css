@@ -29,19 +29,6 @@
     }
 }
 @media (max-width: 800px){
-    .contact-section .address-part {
-        width: 100%;
-        text-align: center;
-        padding: 15px;
-    }
-    .contact-section .address-part i {
-        font-size: 50px;
-    }
-    .contact-section .address-part h3 {
-        font-size: 24px;
-        font-weight: 600;
-        margin: 20px 0 10px 0;
-    }
     .hover-button {
         margin: 6px auto;
     }
@@ -145,9 +132,6 @@
     .price-section h2 {
         padding: 10px 0;
     }
-    .price-section .high-price{
-        margin-top: 40px;
-    }
     .price-section{
         margin-bottom: 40px;
     }
@@ -166,6 +150,19 @@
     }
     .app-features{
         padding: 0 0 0 0 !important;
+    }
+    .contact-section .address-part {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+    .contact-section .address-part i {
+        font-size: 50px;
+    }
+    .contact-section .address-part h3 {
+        font-size: 24px;
+        font-weight: 600;
+        margin: 20px 0 10px 0;
     }
 }
 
@@ -198,6 +195,14 @@
         padding: 5px 8px;
         font-size: 18px;
     }
+    .contact-section .address-part i {
+        font-size: 30px;
+    }
+    .contact-section .address-part h3 {
+        font-size: 18px;
+        font-weight: 600;
+        margin: 20px 0 10px 0;
+    }
 
 }
 @media (max-width: 460px){
@@ -206,6 +211,14 @@
     }
 
 }
+@media (max-width: 350px){
+    .contact-section .content-item{
+        width: 100%;
+    }
+
+
+}
+
 @media (max-width: 320px){
     .container{
         overflow-x: hidden !important;
@@ -221,4 +234,8 @@
         padding: 4px 6px;
         font-size: 14px;
     }
+    .contact-section .content-item{
+        width: 100%;
+    }
+
 }
