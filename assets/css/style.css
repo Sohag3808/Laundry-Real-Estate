@@ -607,14 +607,6 @@ li{
     z-index: 9994;
 } 
 
-.portfilio-button {
-    color: var(--theme-color);
-    border: 1px solid var(--theme-color);
-    border-radius: 50px;
-    padding: 4px 18px;
-    background-color: transparent;
-}
-
 .hover-button {
     padding: 4px 18px;
     border: 1px solid transparent;
@@ -629,7 +621,7 @@ li{
     padding: 4px 18px;
 }
 
-.filter-button-group button:focus {
+.filter-button-group .hover-button.active {
     border: 1px solid var(--theme-color);
     border-radius: 50px;
 }
@@ -827,68 +819,25 @@ li{
     margin: 10px 2px ;
 }
 
-/* footer */
-.footer {
+/*======Footer-End-Section=======*/
+.footer-end-section {
     background-color: #fafbff;
 }
 
-.copyright {
-
+.footer-end-section .copyright {
+    font-family: "Raleway", sans-serif;
     padding-top: 30px;
-    color: var(--theme-color);
-    font-size: 15px;
-}
-
-.credits a {
-    padding-top: 10px;
-    font-size: 13px;
-    color: var(--theme-color);
-    text-decoration: none;
-}
-
-/* model-login */
-.model-login {
-    background-color: lightpink;
-    height: auto;
-}
-
-.model-login h2 {
-    font-weight: 650;
-    padding-bottom: 15px;
-    margin-top: 15px;
-}
-
-.model-login p {
+    color: #000;
     font-size: 14px;
-    color: blue;
-    text-align: right;
-    cursor: pointer;
-    padding: 3px 0;
 }
 
-.check-box {
-    font-size: 17px;
-    margin-top: -25px;
-}
-
-span a {
+.footer-end-section .credits{
+    font-family: "Raleway", sans-serif;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--theme-color);
     text-decoration: none;
 }
-
-.modal-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-
-}
-
-
-
-
-@media only screen and (max-width: 600px) {
-    .heroImg {
-        margin-top: 0;
-    }
-}
+/*======Footer-End-Section-End=======*/
+/* Complete This Website */
