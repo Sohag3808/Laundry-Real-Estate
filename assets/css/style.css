@@ -575,7 +575,7 @@ li{
     text-transform: uppercase;
 }
 
-.portfolio-info .portfolio-link a {
+.portfolio-info .portfolio-link i{
     width: 36px;
     height: 36px;
     background: var(--theme-color);
