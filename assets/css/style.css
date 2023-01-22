@@ -690,7 +690,7 @@ li{
 }
 
 .contact-section .send-button button{
-    background: var(--theme-color);
+    background: #55efc4;
     display: inline-block;
     padding: 8px 25px;
     border-radius: 20px;
@@ -704,7 +704,7 @@ li{
     border: none;
 }
 .contact-section .send-button button:hover{
-    background: #25ADDE;
+    background: var(--theme-color);
 }
 
 
