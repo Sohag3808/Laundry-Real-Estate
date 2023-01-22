@@ -13,7 +13,7 @@ window.addEventListener('scroll', function () {
 var scroller = document.querySelector('.scroller-top');
 window.addEventListener('scroll', function () {
     if (window.pageYOffset > 500) {
-        scroller.style.display = 'block';
+        scroller.style.display = 'flex';
     } else {
         scroller.style.display = 'none';
     }

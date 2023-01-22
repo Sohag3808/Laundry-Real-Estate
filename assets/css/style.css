@@ -16,7 +16,17 @@ a{
 li{
     list-style: none;
 }
-.scroller-top i{
+.scroller-top {
+    width: 40px;
+    height: 38px;
+    border-radius: 2px;
+    cursor: pointer;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    bottom: 20px;
+    right: 20px;
     color: #fff;
     background-color: var(--theme-color) !important;
     border: none;
