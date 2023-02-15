@@ -341,11 +341,11 @@ li{
     color: var(--theme-color);
 }
 .price-section .price-heding-content{
+    margin-top: 5px;
     border-bottom: 1px solid rgba(0,0,0,.125);
 }
 .price-section .price-heding-content h2{
     font-weight: 500;
-    margin-bottom: 10px;
     font-size: 26px;
     font-family: "Raleway", sans-serif;
     color: #212529;
@@ -358,22 +358,28 @@ li{
 .price-section .price-item-content {
     margin-top: 20px;
 }
+.Font15{
+    color: #000;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
 .price-section .price-item-content .item{
     list-style: none;
     font-size: 14px;
     display: flex;
     justify-content: flex-start !important;
-    gap: 4px;
+    gap: 5px;
     align-items: center;
     color: #47536e;
+    padding: 8px 0;
 }
 .price-section .price-item-content .item .icon{
     font-size: 23px !important;
     color: var(--theme-color);
 }
-.price-box{
-    padding: 20px;
-}
+
 .orderButton{
     background: #55efc4;
     display: inline-block;
@@ -388,13 +394,12 @@ li{
     transition: 0.3s;
     border: none;
 }
-.pricCardbody{
-    padding: 24px;
-}
+
 .priceFont{
     color: #212529;
     font-size: 32px;
     font-weight: 600;
+    text-align: center;
 }
 .orderButton :hover{
     background: var(--theme-color);
